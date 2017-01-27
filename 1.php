@@ -73,7 +73,7 @@ function funSub ($d)
 	}		
 }
 
-$ob = new ClassName();
+$ob = new ClassName(5, 1);
 
 echo $ob->funTheThe(2, 5);
 echo $ob->funSub(258964);
