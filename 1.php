@@ -5,7 +5,7 @@ use bitrix\admin as noadmin;
 
 include name;
 
-for (i == 1; i < 5; i++) {
+for ($i == 1; $i < 5; $i++) {
 	echo $i . "<br>";
 }
 
