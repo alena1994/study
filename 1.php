@@ -1,13 +1,13 @@
-<?php 
+<?php
 
 $i = 0;
 for ($i == 1; $i < 5; $i++) {
-    echo $i . '<br>';
+    echo $i.'<br>';
 }
 
 $mas = [1, 2, 3];
 foreach ($mas as $key => $val) {
-    echo $key . '-' . $val . '<br>';
+    echo $key.'-'.$val.'<br>';
 }
 
 $i = 0;
@@ -37,8 +37,8 @@ switch ($i) {
     case 1:
         echo $i;
         break;
-    default: 
-	    echo 'no';
+    default:
+        echo 'no';
 }
 
 function funSunThe()
@@ -46,14 +46,14 @@ function funSunThe()
     $i = 1 + 5;
 }
 
-class ClassName 
-{	
+class ClassName
+{
     public $a;
     private $b;
     public $l = 1;
     public $k = 5;
 
-    public function funTheThe($c, $s) 
+    public function funTheThe($c, $s)
     {
         $i = mod($c, $s);
     }
@@ -64,13 +64,13 @@ class ClassName
         $mul2 = 0;
         for ($i = 0; $i <= 2; $i++) {
             $mul1 = $mul1 + $d[$i];
-        }
+		}
         for ($i = 3; $i <= 6; $i++) {
-            $mul2 = $mul2 + $d[$i];  
-        }
+            $mul2 = $mul2 + $d[$i];
+		}
         if ($mul1 == $mul2) {
         echo 'lucky ticket';
-	    }		
+	    }
     }
 }
 
