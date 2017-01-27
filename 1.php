@@ -19,9 +19,7 @@ while ($i < 5) {
 
 do {
     $i++;
-} while {
-   $i < 10;
-}
+} while ($i < 10);
 
 if ($i < 4) {
 echo $i;
