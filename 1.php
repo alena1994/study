@@ -64,13 +64,13 @@ class ClassName
         $mul2 = 0;
         for ($i = 0; $i <= 2; $i++) {
             $mul1 = $mul1 + $d[$i];
-		}
+        }
         for ($i = 3; $i <= 6; $i++) {
             $mul2 = $mul2 + $d[$i];
-		}
+        }
         if ($mul1 == $mul2) {
-        echo 'lucky ticket';
-	    }
+            echo 'lucky ticket';
+        }
     }
 }
 
