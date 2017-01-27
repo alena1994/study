@@ -1,9 +1,9 @@
 <?php 
-namespace bitrix\admin;
+/*namespace bitrix\admin;
 
 use bitrix\admin as noadmin;
 
-include name;
+include name;*/
 
 for ($i == 1; $i < 5; $i++) {
 	echo $i . "<br>";
@@ -73,7 +73,7 @@ function funSub ($d)
 	}		
 }
 
-$ob = new ClassName(5, 1);
+$ob = new ClassName();
 
 echo $ob->funTheThe(2, 5);
 echo $ob->funSub(258964);
