@@ -9,7 +9,7 @@ for ($i == 1; $i < 5; $i++) {
 	echo $i . "<br>";
 }
 
-$mas = [1, 2, 3,]
+$mas = [1, 2, 3,];
 foreach ($mas as $key => $val) {
 	echo $key . "-" . $val . "<br";
 }
