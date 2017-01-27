@@ -4,23 +4,28 @@
 use bitrix\admin as noadmin;
 
 include name;*/
-
+$i = 0;
 for ($i == 1; $i < 5; $i++) {
 	echo $i . "<br>";
 }
 
+$mas = [1, 2, 3,]
 foreach ($mas as $key => $val) {
 	echo $key . "-" . $val . "<br";
 }
 
+$i = 0;
 while ($i < 5) {
 	echo $i;
+	$i++;
 }
 
+$i = 0;
 do {
     $i++;
 } while ($i < 10);
 
+$i = 0;
 if ($i < 4) {
 echo $i;
 } elseif ($i > 5) {
