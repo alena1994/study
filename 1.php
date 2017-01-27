@@ -23,7 +23,7 @@ do {
 
 if ($i < 4) {
 echo $i;
-} elseif {
+} elseif ($i > 5) {
 	echo $i;
 } else {
 	echo "no";
