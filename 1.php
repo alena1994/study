@@ -85,8 +85,3 @@ echo $ob->$k;
 echo $ob->$a = 45;
 echo $ob->$k = 85;
 
-
-
- 
-
-}
