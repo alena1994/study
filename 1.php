@@ -41,7 +41,7 @@ switch ($i) {
 	    echo 'no';
 }
 
-public function funSunThe()
+function funSunThe()
 {
     $i = 1 + 5;
 }
