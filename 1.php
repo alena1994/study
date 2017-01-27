@@ -1,23 +1,19 @@
 <?php 
-/*namespace bitrix\admin;
 
-use bitrix\admin as noadmin;
-
-include name;*/
 $i = 0;
 for ($i == 1; $i < 5; $i++) {
-	echo $i . "<br>";
+    echo $i . "<br>";
 }
 
 $mas = [1, 2, 3,];
 foreach ($mas as $key => $val) {
-	echo $key . "-" . $val . "<br";
+    echo $key . "-" . $val . "<br";
 }
 
 $i = 0;
 while ($i < 5) {
-	echo $i;
-	$i++;
+    echo $i;
+    $i++;
 }
 
 $i = 0;
@@ -29,15 +25,15 @@ $i = 0;
 if ($i < 4) {
 echo $i;
 } elseif ($i > 5) {
-	echo $i;
+    echo $i;
 } else {
-	echo "no";
+    echo "no";
 }
 
 switch ($i) {
-	case 0: 
-	   echo $i;
-	   break;
+    case 0: 
+        echo $i;
+        break;
 	case 1:
 	    echo $i;
 		break;
