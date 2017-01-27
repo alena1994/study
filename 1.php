@@ -72,6 +72,7 @@ function funSub ($d)
 	echo " lucky ticket";
 	}		
 }
+}
 
 $ob = new ClassName();
 
