@@ -65,8 +65,8 @@ class ClassName {
 
     public $a;
     private $b;
-    const $c = 4;
-    const $l = 10;
+    //const $c = 4;
+    //const $l = 10;
 
     public function funTheThe()
     {
