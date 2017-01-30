@@ -39,3 +39,5 @@ switch ($t) {
     default:
         echo 'no';
 }
+
+$k = 0;
