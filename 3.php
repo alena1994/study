@@ -58,6 +58,7 @@ function funThe($a, $b)
     } elseif (is_int($a) and is_int($a)) {
         $sum = (string) $a + (string) $b;
     }
+	
     return ($sum).'<br>';
 }
 
