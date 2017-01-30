@@ -1,10 +1,11 @@
 <?php
-
+/*
 namespace bitrix\admin;
 
 use bitrix\admin as neadmin;
 
 include 1.php;
+*/
 
 for ($i = 0; $i < 5; $i++) {
     echo $i;
