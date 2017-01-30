@@ -38,5 +38,4 @@ switch ($t) {
         echo '1';
     default:
         echo 'no';
-}
-	
+}	
