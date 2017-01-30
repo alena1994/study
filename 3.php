@@ -55,7 +55,7 @@ function funThe($a, $b)
         $sum = (int)$a + (string)$b;
     } elseif (is_string($a) and is_string($a)) {
         $sum = (int)$a + (int)$b;
-    } else (is_integer($a) and is_integer($a)) {
+    } elseif (is_integer($a) and is_integer($a)) {
         $sum = (string)$a + (string)$b;
     }
     return ($sum).'<br>';
