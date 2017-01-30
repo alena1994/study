@@ -30,6 +30,7 @@ if ($f == 2) {
 } else {
     echo $f;
 }
+
 switch ($t) {
     case 0: 
         echo '0';
