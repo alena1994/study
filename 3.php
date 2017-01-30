@@ -63,7 +63,6 @@ function funThe($a, $b)
 
 class ClassName
 {
-
     public $a;
     private $b;
     //const $c = 4;
