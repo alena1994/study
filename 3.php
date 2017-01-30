@@ -35,7 +35,7 @@ switch ($f) {
     case 1:
         echo $f;
     default:
-        echo 'no'; 
+        echo 'no';
 }
 
 $h = 0;
@@ -49,19 +49,20 @@ if ($h = 0) {
 
 function funThe($a, $b)
 {
-    if (is_integer($a) and is_string($b)) {
+    if (is_int($a) and is_string($b)) {
         $sum = $a + $b;
-    } elseif (is_string($a) and is_integer($b)) {
-        $sum = (int)$a + (string)$b;
+    } elseif (is_string($a) and is_int($b)) {
+        $sum = (int) $a + (string) $b;
     } elseif (is_string($a) and is_string($a)) {
-        $sum = (int)$a + (int)$b;
-    } elseif (is_integer($a) and is_integer($a)) {
-        $sum = (string)$a + (string)$b;
+        $sum = (int) $a + (int) $b;
+    } elseif (is_int($a) and is_int($a)) {
+        $sum = (string) $a + (string) $b;
     }
     return ($sum).'<br>';
 }
 
-class ClassName {
+class ClassName
+{
 
     public $a;
     private $b;
@@ -83,7 +84,7 @@ echo funThe('1', 5);
 echo funThe(1, '5');
 echo funThe('1', '5');
 echo funThe(1, 5);
-$yy = new ClassName;
+$yy = new ClassName();
 echo $yy->$a;
 echo $yy->$b;
 echo $yy->$c;
