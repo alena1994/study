@@ -47,11 +47,11 @@ if ($h = 0) {
     echo $h;
 }
 
-functin funThe($a, $b)
+public function funThe($a, $b)
 {
     if (is_integer($a) and is_string($b)) {
         $sum = $a + $b;
-	} elseif (is_string($a) and is_integer($b)) {
+    } elseif (is_string($a) and is_integer($b)) {
         $sum = (int)$a + (string)$b;
     } elseif (is_string($a) and is_string($a)) {
         $sum = (int)$a + (int)$b;
@@ -62,11 +62,11 @@ functin funThe($a, $b)
 }
 
 class ClassName {
-	
+
     public $a;
-	private $b;
-	const $c = 4;
-	const $l = 10;
+    private $b;
+    const $c = 4;
+    const $l = 10;
 
     public function funTheThe()
     {
@@ -76,7 +76,7 @@ class ClassName {
     public function funDoDo($rr, $ff)
     {
         $res = pow($rr, $ff);
-    }		
+    }
 }
 
 echo funThe('1', 5);
