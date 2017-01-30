@@ -47,7 +47,7 @@ if ($h = 0) {
     echo $h;
 }
 
-functin funThe ($a, $b)
+functin funThe($a, $b)
 {
     if (is_integer($a) and is_string($b)) {
         $sum = $a + $b;
