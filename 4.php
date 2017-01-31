@@ -42,7 +42,7 @@ while ($i < 20):
     echo $i;
     $i++;
 endwhile;  
-}
+
 
 do :
     $i++;
@@ -93,5 +93,3 @@ echo $rrr->reWr(7);
 echo $rrr->a;
 echo ClassName::CONSTANTA1;
 echo ClassName::CONSTANTA2;
-
-
