@@ -43,13 +43,6 @@ while ($i < 20):
     $i++;
 endwhile;  
 
-
-do :
-    $i++;
-    if ($i == 25)
-        break;
-while (true);
-
 $mas = [
     'fruts' => [
         'apple',
