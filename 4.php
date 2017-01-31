@@ -12,12 +12,12 @@ class ClassName
     private $b;
     const CONSTANTA1 = 5;
     const CONSTANTA2 = 8;
-	
-	public function theThe($the)
+
+    public function theThe($the)
     {
         echo ($the == 10) ? $the : 'no';
     }
-    
+
     public function reWr($a)
     {
         echo ($a == 5)
@@ -26,14 +26,13 @@ class ClassName
             ? 'a = 6'
             : ' a != 5, 6';
     }
-    
 }
 
 $i = 0;
-for (; ; ):
-    if ($i > 10)
+for (; ;):
+    if ($i > 10) {
         break;
-    
+    }
     echo $i;
     $i += 2;
 endfor;
@@ -41,7 +40,7 @@ endfor;
 while ($i < 20):
     echo $i;
     $i++;
-endwhile;  
+endwhile;
 
 $mas = [
     'fruts' => [
@@ -51,7 +50,7 @@ $mas = [
     'vegatebles' => [
         'onion',
         'tomato',
-        'potatos'
+        'potatos',
         ]
         ];
 foreach ($mas as $group => $category):
@@ -66,7 +65,7 @@ switch ($i):
         break;
     case 30: echo '30';
         break;
-    default: 
+    default:
         echo 'no';
 endswitch;
 
@@ -78,7 +77,7 @@ function hrTg($val)
 }
 
 echo htTg(25);
-$rrr = new ClassName;
+$rrr = new ClassName();
 echo $rrr->theThe(10);
 echo $rrr->reWr(5);
 echo $rrr->theThe(4);
