@@ -8,44 +8,54 @@ include 1.php;
 */
 
 for ($i = 0; $i < 5; $i++) {
-    echo $i;
+    echo $i.'<br>';
 }
+echo '<br>';
 
 $mas = [1, 5, 6, 7];
 foreach ($mas as $key => $val) {
     echo $key.'-'.$val.'<br>';
 }
+echo '<br>';
 
 $k = 0;
 while ($k < 5) {
-    echo $k;
+    echo $k.'<br>';
     $k++;
 }
+echo '<br>';
 
 $k = 0;
 do {
-    echo $k;
+    echo $k.'<br>';
     $k++;
 } while ($k < 5);
+echo '<br>';
 
 $f = 1;
 switch ($f) {
     case 0:
         echo $f;
+		break;
     case 1:
         echo $f;
+		break;
     default:
         echo 'no';
 }
+echo '<br>';
+echo '<br>';
 
 $h = 0;
-if ($h = 0) {
+if ($h == 0) {
     echo '0';
-} elseif ($h = 5) {
+} elseif ($h == 5) {
     echo '5';
 } else {
     echo $h;
 }
+echo '<br>';
+echo '<br>';
 
 function funThe($a, $b)
 {
@@ -62,21 +72,31 @@ function funThe($a, $b)
     return ($sum).'<br>';
 }
 
+function funPlus($a, $b)
+{
+    return intval($a) + strval($b);
+}
+
 class ClassName
 {
     public $a;
-    private $b;
-    //const $c = 4;
-    //const $l = 10;
+    private $b = 7;
+    const L = 4;
+    //const l = 10;
 
     public function funTheThe()
     {
-        $fff = 4 * 9;
+        return 4 * 9;
     }
 
     public function funDoDo($rr, $ff)
     {
-        $res = pow($rr, $ff);
+        return pow($rr, $ff);
+    }
+	
+	public function getB()
+    {
+        return $this->b;
     }
 }
 
@@ -84,10 +104,16 @@ echo funThe('1', 5);
 echo funThe(1, '5');
 echo funThe('1', '5');
 echo funThe(1, 5);
+echo funPlus('1', 5);
+echo funPlus(1, '5');
+echo funPlus('1', '5');
+echo funPlus(1, 5);
+echo '<br>';
 $yy = new ClassName();
-echo $yy->$a;
-echo $yy->$b;
-echo $yy->$c;
-echo $yy->$l;
-echo $yy->funTheThe;
-echo $yy->funDoDo;
+$yy->a = 4;
+echo $yy->a;
+echo $yy->getB();
+//$yy->showConstant();
+echo ClassName::L;
+echo $yy->funTheThe();
+echo $yy->funDoDo(2, 4);
