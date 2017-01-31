@@ -51,7 +51,7 @@ $mas = [
         'onion',
         'tomato',
         'potatos',
-        ]
+        ],
         ];
 foreach ($mas as $group => $category):
     echo $group.': ';
